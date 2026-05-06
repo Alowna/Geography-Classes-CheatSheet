@@ -4,7 +4,7 @@
 
 
 ### First week
-* Implement html/css/js homepage on localhost
+* Implement html/css/js homepage on localhost / DONE YIPPIEEE
 * Implement c++ listener
 * Implement js c++ json based connection through nlhomann
 
