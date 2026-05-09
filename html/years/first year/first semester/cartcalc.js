@@ -1,29 +1,29 @@
-// Função para converter centímetros para metros
+// centímetros para metros
 function cmToM(cm) {
     return cm / 100;
 }
 
-// Função para converter centímetros para quilômetros
+// centímetros para quilômetros
 function cmToKm(cm) {
     return cm / 100000;
 }
 
-// Função para converter metros para centímetros
+// metros para centímetros
 function mToCm(m) {
     return m * 100;
 }
 
-// Função para converter metros para quilômetros
+// metros para quilômetros
 function mToKm(m) {
     return m / 1000;
 }
 
-// Função para converter quilômetros para centímetros
+// quilômetros para centímetros
 function kmToCm(km) {
     return km * 100000;
 }
 
-// Função para converter quilômetros para metros
+// quilômetros para metros
 function kmToM(km) {
     return km * 1000;
 }
@@ -85,5 +85,15 @@ function calculateScale() {
     }
 }
 
+
 measuredValueCmInput.addEventListener('input', calculateScale);
 realValueCmInput.addEventListener('input', calculateScale);
+
+
+        const response = await fetch("http://localhost:8080/test")
+        const serverRes = await response.json()
+
+        const serverTestDiv = document.getElementById("serverTest");
+        console.log(`Resposta do servidor: ${serverRes["firstValue"]}`);
+        serverTestDiv.textContent = `Resposta do servidor: ${serverRes["firstValue"]}`;
+

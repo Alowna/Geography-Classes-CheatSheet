@@ -57,11 +57,96 @@
         </div>
         <div class="mb-3">
             <label class="form-label">Escala:</label>
-            <span id="scaleResult" class="form-control-plaintext">1 : ?</span>
+            <span id="scaleResult" class="form-control">1 : ?</span>
         </div>
 
     <h1>Coordenadas Cartográficas</h1>
 
-    <script src="cartcalc.js"></script>
+    <div class="container" style="margin-right:0px;">
+    <div class="row">
+        <div class="col">
+            <h5>Variações do Mapa</h5>
+            <div class="row">
+                <h6 class="text-center">Longitude</h6>
+                <div class="col">
+                    <label class="form-label">Minuto</label>
+                    <input type="number" class="form-control" id="longitudeVariationMinute" placeholder="?'">
+                    <label class="form-label">Centimetros</label>
+                    <input type="number" class="form-control" id="longitudeVariationCentimeters" placeholder="?cm">
+
+                </div>
+                <div class="col">
+                    <label class="form-label">Segundo</label>
+                    <input type="number" class="form-control" id="longitudeVariationSecond" placeholder="?''">
+                    <label class="form-label">Cardial</label>
+                    <select class="form-control" id="longitudeVariationBound">
+                        <option id="East">Leste</option>
+                        <option id="West">Oeste</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <h6 class="text-center">Latitude</h6>
+                <div class="col">
+                    <label class="form-label">Minuto</label>
+                    <input type="number" class="form-control" id="latitudeVariationMinute" placeholder="?'">
+                    <label class="form-label">Centimetros</label>
+                    <input type="number" class="form-control" id="latitudeVariationCentimeters" placeholder="?cm">
+
+                </div>
+                <div class="col">
+                    <label class="form-label">Segundo</label>
+                    <input type="number" class="form-control" id="latitudeVariationSecond" placeholder="?''">
+                    <label class="form-label">Cardial</label>
+                    <select class="form-control" id="latitudeVariationBound">
+                        <option id="North">Norte</option>
+                        <option id="South">Sul</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+        </div>
+        <div class="col">
+            <br>
+            <h5>Medidas do Local</h5>
+            <div class="row">
+                <div class="col">
+                    <label class="form-label">Longitude</label>
+                    <input type="number" class="form-control" id="localCentimetersLongitude" placeholder="?cm">
+                </div>
+                <div class="col">
+                    <label class="form-label">Latitude</label>
+                    <input type="number" class="form-control" id="localCentimetersLatitude" placeholder="?cm">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <h5 class="text-center">Posição do Mapa</h5>
+                <div class="col">
+                    <h6 class="text-center">Lontitude</h6>
+                    <label class="form-label">Minuto</label>
+                    <input type="number" class="form-control" id="mapLongitudeMinute" placeholder="?'">
+                    <label class="form-label">Segundos</label>
+                    <input type="number" class="form-control" id="mapLongitudeSeconds" placeholder="?''">
+                </div>
+                <div class="col">
+                    <h6 class="text-center">Latitude</h6>
+                    <label class="form-label">Minuto</label>
+                    <input type="number" class="form-control" id="mapLatitudeMinute" placeholder="?'">
+                    <label class="form-label">Segundos</label>
+                    <input type="number" class="form-control" id="mapLatitudeSeconds" placeholder="?''">
+                </div>
+            </div>           
+        </div>
+        <button type="button" class="btn btn-dark">Calcular</button>
+    </div>
+    </div>
+        
+
+
+
+    <script type="module" src="cartcalc.js"></script>
 </body>
 </html>
