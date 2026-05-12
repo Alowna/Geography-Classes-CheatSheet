@@ -1,0 +1,22 @@
+/* Estilos para telas pequenas (extra small e small) */
+@media (max-width: 767.98px) { /* Menor que 'md' breakpoint */
+    .form-label {
+        font-size: 0.85rem; /* Tamanho da fonte menor para labels */
+    }
+}
+
+/* Estilos para telas médias */
+@media (min-width: 768px) and (max-width: 991.98px) { /* Entre 'md' e 'lg' breakpoints */
+    .form-label {
+        font-size: 0.95rem; /* Tamanho da fonte ligeiramente menor */
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align:center;
+}
+
+col{
+    border-style: solid;
+    border-color: blue;
+}
