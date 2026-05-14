@@ -3,11 +3,17 @@
     .form-label {
         font-size: 0.85rem; /* Tamanho da fonte menor para labels */
     }
+    .form-control {
+        font-size: 0.85rem; /* Tamanho da fonte menor para labels */
+    }
 }
 
 /* Estilos para telas médias */
 @media (min-width: 768px) and (max-width: 991.98px) { /* Entre 'md' e 'lg' breakpoints */
     .form-label {
+        font-size: 0.95rem; /* Tamanho da fonte ligeiramente menor */
+    }
+    .form-control {
         font-size: 0.95rem; /* Tamanho da fonte ligeiramente menor */
     }
 }

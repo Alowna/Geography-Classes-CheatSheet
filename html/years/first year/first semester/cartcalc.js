@@ -1,3 +1,6 @@
+const server = "http://localhost:8080"
+
+
 // centímetros para metros
 function cmToM(cm) {
     return cm / 100;
@@ -89,8 +92,57 @@ function calculateScale() {
 measuredValueCmInput.addEventListener('input', calculateScale);
 realValueCmInput.addEventListener('input', calculateScale);
 
+// --- Calculadora de coordenada
+const calcCoordButton = document.getElementById('calcCoordButton');
+const coordResultMinuteLongitude = document.getElementById('coordResultMinuteLongitude');
+const coordResultSecondLongitude = document.getElementById('coordResultSecondLongitude');
+const coordResultMinuteLatitude = document.getElementById('coordResultMinuteLatitude');
+const coordResultSecondLatitude = document.getElementById('coordResultSecondLatitude');
 
-        const response = await fetch("http://localhost:8080/test")
+
+function calculateCoordinate() {
+    const data = {
+        longitudeVariationMinute: parseFloat(document.getElementById('longitudeVariationMinute').value),
+        longitudeVariationSecond: parseFloat(document.getElementById('longitudeVariationSecond').value),
+        longitudeVariationBound: parseFloat(document.getElementById('longitudeVariationBound').value),
+        latitudeVariationMinute: parseFloat(document.getElementById('latitudeVariationMinute').value),
+        latitudeVariationSecond: parseFloat(document.getElementById('latitudeVariationSecond').value),
+        latitudeVariationBound: parseFloat(document.getElementById('latitudeVariationBound').value),
+
+        mapLongitudeMinute: parseFloat(document.getElementById('mapLongitudeMinute').value),
+        mapLongitudeSecond: parseFloat(document.getElementById('mapLongitudeSecond').value),
+        mapLongitudeBound: parseFloat(document.getElementById('mapLongitudeBound').value),
+        mapLatitudeMinute: parseFloat(document.getElementById('mapLatitudeMinute').value),
+        mapLatitudeSecond: parseFloat(document.getElementById('mapLatitudeSecond').value),
+        mapLatitudeBound: parseFloat(document.getElementById('mapLatitudeBound').value),
+        
+        longitudeVariationCentimeters: parseFloat(document.getElementById('longitudeVariationCentimeters').value),
+        latitudeVariationCentimeters: parseFloat(document.getElementById('latitudeVariationCentimeters').value),
+    
+        localCentimetersLongitude: parseFloat(document.getElementById('localCentimetersLongitude').value),
+        localCentimetersLatitude: parseFloat(document.getElementById('localCentimetersLatitude').value),
+
+    }
+
+    fetch(server + "/coord", {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)})
+        .then(response => response.json())
+        .then(data => {
+            coordResultMinuteLongitude.textContent = data.localMinuteLongitude;
+            coordResultSecondLongitude.textContent = data.localSecondLongitude;
+            coordResultMinuteLatitude.textContent = data.localMinuteLatitude;
+            coordResultSecondLatitude.textContent = data.localSecondLatitude;
+        })
+
+}
+
+calcCoordButton.addEventListener('click', calculateCoordinate);
+
+        const response = await fetch(server + "/test")
         const serverRes = await response.json()
 
         const serverTestDiv = document.getElementById("serverTest");
