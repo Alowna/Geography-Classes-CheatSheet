@@ -1,4 +1,6 @@
+@import "../bootstrap_includes/node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
 body{
-    background: rgb(197, 103, 103);
+    background: rgb(205, 174, 255);
     font-family: "Pixelify Sans", sans-serif;
-}
+}   
