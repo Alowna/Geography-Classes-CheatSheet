@@ -11,9 +11,10 @@
 
 ### Second week
 REPLANNING!!
-* Implement cartcalc.* functions before proceeding to actual server implementation
+* Implement cartcalc.* functions before proceeding to actual server implementation // DONE 
+* Implement styles and components before implementing more information // TO DO
 * Implement all other html static pages information about the course
-* Implement styles
+
 
 ### Third week
 * Implement .sh to compile and execute c++ listener on homepage execution
