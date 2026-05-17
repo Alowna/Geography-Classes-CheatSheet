@@ -104,18 +104,14 @@ function calculateCoordinate() {
     const data = {
         longitudeVariationMinute: parseFloat(document.getElementById('longitudeVariationMinute').value),
         longitudeVariationSecond: parseFloat(document.getElementById('longitudeVariationSecond').value),
-        longitudeVariationBound: parseFloat(document.getElementById('longitudeVariationBound').value),
         latitudeVariationMinute: parseFloat(document.getElementById('latitudeVariationMinute').value),
         latitudeVariationSecond: parseFloat(document.getElementById('latitudeVariationSecond').value),
-        latitudeVariationBound: parseFloat(document.getElementById('latitudeVariationBound').value),
 
         mapLongitudeMinute: parseFloat(document.getElementById('mapLongitudeMinute').value),
         mapLongitudeSecond: parseFloat(document.getElementById('mapLongitudeSecond').value),
-        mapLongitudeBound: parseFloat(document.getElementById('mapLongitudeBound').value),
         mapLatitudeMinute: parseFloat(document.getElementById('mapLatitudeMinute').value),
         mapLatitudeSecond: parseFloat(document.getElementById('mapLatitudeSecond').value),
-        mapLatitudeBound: parseFloat(document.getElementById('mapLatitudeBound').value),
-        
+
         longitudeVariationCentimeters: parseFloat(document.getElementById('longitudeVariationCentimeters').value),
         latitudeVariationCentimeters: parseFloat(document.getElementById('latitudeVariationCentimeters').value),
     
@@ -141,11 +137,4 @@ function calculateCoordinate() {
 }
 
 calcCoordButton.addEventListener('click', calculateCoordinate);
-
-        const response = await fetch(server + "/test")
-        const serverRes = await response.json()
-
-        const serverTestDiv = document.getElementById("serverTest");
-        console.log(`Resposta do servidor: ${serverRes["firstValue"]}`);
-        serverTestDiv.textContent = `Resposta do servidor: ${serverRes["firstValue"]}`;
 
