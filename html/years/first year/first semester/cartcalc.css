@@ -26,3 +26,8 @@ col{
     border-style: solid;
     border-color: blue;
 }
+
+.form-label, .form-control{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

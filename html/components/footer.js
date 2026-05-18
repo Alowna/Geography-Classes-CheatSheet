@@ -13,10 +13,10 @@ class Footer extends HTMLElement {
                     <h2 class="text-start" style="font-size:0.60rem;">Sugestões:</h2>
                     <div class="col d-flex flex-row justify-content-start mx-0 px-0">
                         
-                        <a href="mailto:alonum2004@gmail.com" type="button" class="btn btn-primary btn-sm btn-floating mx-2" style="background-color: #54456b;" aria-label="E-mail">
+                        <a target="_blank" href="mailto:alonum2004@gmail.com" type="button" class="btn btn-primary btn-sm btn-floating mx-2" style="background-color: #54456b;" aria-label="E-mail">
                             <i class="bi bi-envelope"></i>
                         </a>
-                        <a href="https://github.com/Alowna/Geography-Classes-CheatSheet/issues/new" type="button" class="btn btn-primary btn-sm btn-floating mx-2" style="background-color: #54456b;" aria-label="GitHub">
+                        <a target="_blank" href="https://github.com/Alowna/Geography-Classes-CheatSheet/issues/new" type="button" class="btn btn-primary btn-sm btn-floating mx-2" style="background-color: #54456b;" aria-label="GitHub">
                             <i class="bi bi-github"></i>
                         </a>
                     </div>
