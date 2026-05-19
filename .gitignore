@@ -1,2 +1,4 @@
 *.exe
 cartcalc
+html/*.php
+*.log
