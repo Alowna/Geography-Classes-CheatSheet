@@ -18,7 +18,8 @@ We... went a little of course. :3
 
 * Apache that stuff up! Oracle Cloud Instance implemented and running with apache server on. / DONE!
 * Implement duckdns subdominion because its freeeeeee / DONE!
-[ACCESS THE SITE BTW!!(click here lmao)](http://geocheatsheet.duckdns.org/)
+
+<a target="_blank" href="http://geocheatsheet.duckdns.org/">ACCESS THE SITE BTW!!(click here lmao)</a>
 
 ### Third week
 * Implement g++ gnu to Oracle Cloud VM Instance
