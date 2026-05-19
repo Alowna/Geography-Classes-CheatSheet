@@ -23,8 +23,8 @@ We... went a little of course. :3
 
 ### Third week
 * Implement g++ gnu to Oracle Cloud VM Instance | Done!
-* Implement PHP webhook for git push and pulls | Test 3?
-* Implement .sh to compile and execute c++ listener once every pull
+* Implement PHP webhook for git push and pulls | Done!
+* Implement .sh to compile and execute c++ listener once every pull | TO-DO
 * Implement all other html static pages information about the course
 
 ### Fourth week
