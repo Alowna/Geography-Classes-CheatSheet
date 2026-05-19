@@ -12,14 +12,19 @@
 ### Second week
 REPLANNING!!
 * Implement cartcalc.* functions before proceeding to actual server implementation // DONE 
-* Implement styles and components before implementing more information // TO DO
-* Implement all other html static pages information about the course
+* Implement styles and components before implementing more information // DONE!! FINALLY!
 
+We... went a little of course. :3
+
+* Apache that stuff up! Oracle Cloud Instance implemented and running with apache server on. / DONE!
+* Implement duckdns subdominion because its freeeeeee / DONE!
+[ACCESS THE SITE BTW!!(click here lmao)](http://geocheatsheet.duckdns.org/)
 
 ### Third week
-* Implement .sh to compile and execute c++ listener on homepage execution
-* Implement python listener for git push and pulls
-* Implement structure to Oracle Cloud instance
+* Implement g++ gnu to Oracle Cloud VM Instance
+* Implement python(or other language, figuring it out) listener for git push and pulls
+* Implement .sh to compile and execute c++ listener once every pull
+* Implement all other html static pages information about the course
 
 ### Fourth week
 * Yet to be discovered
