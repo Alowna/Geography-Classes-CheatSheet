@@ -22,8 +22,8 @@ We... went a little of course. :3
 <a  href="http://geocheatsheet.duckdns.org/" target="_blank" title="Ctrl+click me, github is boo boo about _target :c">ACCESS THE SITE BTW!!(click here lmao)</a>
 
 ### Third week
-* Implement g++ gnu to Oracle Cloud VM Instance
-* Implement python(or other language, figuring it out) listener for git push and pulls
+* Implement g++ gnu to Oracle Cloud VM Instance | Done!
+* Implement PHP webhook for git push and pulls | Test 1
 * Implement .sh to compile and execute c++ listener once every pull
 * Implement all other html static pages information about the course
 
