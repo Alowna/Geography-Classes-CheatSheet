@@ -4,3 +4,9 @@ body{
     background: rgb(205, 174, 255);
     font-family: "Pixelify Sans", sans-serif;
 }   
+
+wip-component {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

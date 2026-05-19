@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    <div class="container mw-100 m-0 p-0 pt-5">
+    <div class="container mw-100 m-0 p-0 pt-0">
         <footer class="text-center text-lg-start" style="background-color: #80589a;">
             
             <div class="container mw-100 p-0 m-0">

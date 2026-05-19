@@ -2,3 +2,4 @@
 cartcalc
 html/*.php
 *.log
+.vscode
