@@ -1,5 +1,5 @@
 *.exe
 cartcalc
-html/*.php
+
 *.log
 .vscode
