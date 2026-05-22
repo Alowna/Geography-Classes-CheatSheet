@@ -1,5 +1,5 @@
 <?php 
-include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
 ?>
 
 <!DOCTYPE html>
@@ -7,12 +7,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro Semestre GeoCheatSheet</title>
+    <title>Segundo Semestre GeoCheatSheet</title>
 
     
     <script type="module" src="<?= cacheReset('/components/headImports.php'); ?>"></script>
 
     <head-imports></head-imports>
+
 
 </head>
 <body class="d-flex flex-column min-vh-100">
@@ -21,19 +22,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li>
-                        <a href="/years/first-year/semesters.php" class="nav-link px-2 text-white">1º Ano</a>
+                        <a href="/pages/years/first-year/semesters.php" class="nav-link px-2 text-white">1º Ano</a>
                     </li>
                     <li>
-                        <a href="cartcalc.php" class="nav-link px-2 text-white">Cálculos Cartográficos</a>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Don't know yet!</a>
                     </li>
                     <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Climatologia</a>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Don't know yet!</a>
                     </li>
                     <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Pensamento Geográfico</a>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Don't know yet!</a>
                     </li>
                     <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Geologia</a>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Don't know yet!</a>
                     </li>
 
                 </ul>
@@ -44,7 +45,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
     <main class="flex-grow-1">
     <h1>POR ENQUANTO NADA AQUI!</h1>
     </main>
-
+    
     <footer-component></footer-component>
 </body>
 </html>

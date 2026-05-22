@@ -1,7 +1,7 @@
 <?php
 header("Content-Type: application/javascript");
 
-include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
 
 $footerSrc = cacheReset('/components/footer.js');
 $stylesSrc = cacheReset('/styles/style.css');

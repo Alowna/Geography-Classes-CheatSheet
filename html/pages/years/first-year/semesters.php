@@ -1,15 +1,17 @@
+<?php 
+include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segundo Semestre GeoCheatSheet</title>
+    <title>Primeiro Ano GeoCheatSheet</title>
 
     
-    <script type="module" src="../../../components/headImports.js"></script>
-
+    <script type="module" src="<?= cacheReset('/components/headImports.php'); ?>"></script>
     <head-imports></head-imports>
-
 
 </head>
 <body class="d-flex flex-column min-vh-100">
@@ -18,30 +20,24 @@
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li>
-                        <a href="/years/first-year/semesters.php" class="nav-link px-2 text-white">1º Ano</a>
+                        <a href="/" class="nav-link px-2 text-white">Página Inicial</a>
                     </li>
                     <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Don't know yet!</a>
+                        <a href="/pages/years/first-year/first-semester/firstsemester.php" class="nav-link px-2 text-white">1º Semestre</a>
                     </li>
                     <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Don't know yet!</a>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">2º Semestre</a>
                     </li>
-                    <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Don't know yet!</a>
-                    </li>
-                    <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Don't know yet!</a>
-                    </li>
-
                 </ul>
             </div>
         </div>
     </header>
 
+
     <main class="flex-grow-1">
     <h1>POR ENQUANTO NADA AQUI!</h1>
     </main>
-    
+
     <footer-component></footer-component>
 </body>
 </html>

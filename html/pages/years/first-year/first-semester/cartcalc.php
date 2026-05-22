@@ -1,5 +1,5 @@
 <?php 
-include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
 
 $cartCalcStyle = cacheReset('/styles/cartcalc.css');
 $cartCalcScript = cacheReset('/js/cartcalc.js');
@@ -26,19 +26,19 @@ $cartCalcScript = cacheReset('/js/cartcalc.js');
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li>
-                        <a href="/years/first-year/first-semester/firstsemester.php" class="nav-link px-2 text-white">1º Semestre</a>
+                        <a href="/pages/years/first-year/first-semester/firstsemester.php" class="nav-link px-2 text-white">1º Semestre</a>
                     </li>
                     <li>
                         <a href="cartcalc.php" class="nav-link px-2 text-secondary">Cálculos Cartográficos</a>
                     </li>
                     <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Climatologia</a>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Climatologia</a>
                     </li>
                     <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Pensamento Geográfico</a>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Pensamento Geográfico</a>
                     </li>
                     <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">Geologia</a>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Geologia</a>
                     </li>
 
                 </ul>

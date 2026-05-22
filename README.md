@@ -14,7 +14,7 @@ REPLANNING!!
 * Implement cartcalc.* functions before proceeding to actual server implementation // DONE 
 * Implement styles and components before implementing more information // DONE!! FINALLY!
 
-We... went a little of course. :3
+We... went a little off-course. :3
 
 * Apache that stuff up! Oracle Cloud Instance implemented and running with apache server on. / DONE!
 * Implement duckdns subdominion because its freeeeeee / DONE!

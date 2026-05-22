@@ -1,5 +1,5 @@
 <?php 
-include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
 ?>
 
 <!DOCTYPE html>

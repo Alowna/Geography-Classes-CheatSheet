@@ -1,5 +1,5 @@
 <?php 
-include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +23,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
                         <a href="/" class="nav-link px-2 text-secondary">Página Inicial</a>
                     </li>
                     <li>
-                        <a href="years/first-year/semesters.php" class="nav-link px-2 text-white">1º Ano</a>
+                        <a href="pages/years/first-year/semesters.php" class="nav-link px-2 text-white">1º Ano</a>
                     </li>
                     <li>
                         <a href="/wip.php" class="nav-link px-2 text-white">2º Ano</a>

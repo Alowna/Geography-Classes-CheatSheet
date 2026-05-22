@@ -1,5 +1,5 @@
 <?php 
-include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
 ?>
 
 <!DOCTYPE html>
@@ -7,10 +7,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro Ano GeoCheatSheet</title>
+    <title>Primeiro Semestre GeoCheatSheet</title>
 
     
     <script type="module" src="<?= cacheReset('/components/headImports.php'); ?>"></script>
+
     <head-imports></head-imports>
 
 </head>
@@ -20,19 +21,25 @@ include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li>
-                        <a href="/" class="nav-link px-2 text-white">Página Inicial</a>
+                        <a href="/pages/years/first-year/semesters.php" class="nav-link px-2 text-white">1º Ano</a>
                     </li>
                     <li>
-                        <a href="/years/first-year/first-semester/firstsemester.php" class="nav-link px-2 text-white">1º Semestre</a>
+                        <a href="cartcalc.php" class="nav-link px-2 text-white">Cálculos Cartográficos</a>
                     </li>
                     <li>
-                        <a href="/wip.php" class="nav-link px-2 text-white">2º Semestre</a>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Climatologia</a>
                     </li>
+                    <li>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Pensamento Geográfico</a>
+                    </li>
+                    <li>
+                        <a href="/pages/wip.php" class="nav-link px-2 text-white">Geologia</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
     </header>
-
 
     <main class="flex-grow-1">
     <h1>POR ENQUANTO NADA AQUI!</h1>
