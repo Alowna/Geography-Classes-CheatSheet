@@ -2,6 +2,8 @@
 include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
 
 $cartCalcStyle = cacheReset('/styles/cartcalc.css');
+$cartCalcScript = cacheReset('/js/cartcalc.js');
+
 
 ?>
 
@@ -158,6 +160,6 @@ $cartCalcStyle = cacheReset('/styles/cartcalc.css');
     </main>
                     
     <footer-component></footer-component>
-    <script type="module" src="cartcalc.js"></script>
+    <script type="module" src="<?= $cartCalcScript?>"></script>
 </body>
 </html>
