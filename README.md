@@ -24,6 +24,9 @@ We... went a little of course. :3
 ### Third week
 * Implement g++ gnu to Oracle Cloud VM Instance | Done!
 * Implement PHP webhook for git push and pulls | Done!
+* Implement PHP files for all pages | Done!
+* Implement PHP includes filemtime() function for file versioning and cache reset upon change and push | Done!
+* Implement PHP-friendly paths | Done!
 * Implement .sh to compile and execute c++ listener once every pull | TO-DO
 * Implement all other html static pages information about the course
 
