@@ -17,6 +17,17 @@ int main()
     httplib::Server server;
 
 
+    server.Get("/test", [](const httplib::Request& req, httplib::Response& res){
+
+        nlohmann::json testSent = {
+
+        {"firstValue", "Working!"},
+
+        {"secondValue", 2}
+
+        };
+    });
+
     server.Options("/coord", [](const httplib::Request& req, httplib::Response& res) {
         res.set_header("Access-Control-Allow-Origin", "*"); // Allow any origin
         res.set_header("Access-Control-Allow-Methods", "POST, GET, OPTIONS"); // Allow POST
