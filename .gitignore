@@ -3,3 +3,5 @@ cartcalc
 
 *.log
 .vscode
+
+backend_server

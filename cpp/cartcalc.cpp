@@ -17,18 +17,6 @@ int main()
     httplib::Server server;
 
 
-    server.Get("/test", [](const httplib::Request& req, httplib::Response& res){
-
-        nlohmann::json testSent = {
-           {"firstValue", "punhetassos"},
-           {"secondValue", 2} 
-        };
-
-        res.set_header("Access-Control-Allow-Origin", "*"); // Adiciona o cabeçalho CORS
-        res.set_content(testSent.dump(), "application/json");
-
-    });
-
     server.Options("/coord", [](const httplib::Request& req, httplib::Response& res) {
         res.set_header("Access-Control-Allow-Origin", "*"); // Allow any origin
         res.set_header("Access-Control-Allow-Methods", "POST, GET, OPTIONS"); // Allow POST
@@ -126,6 +114,6 @@ int main()
 
     });
 
-    server.listen("localhost",8080);
+    server.listen("localhost",5000);
 
 }

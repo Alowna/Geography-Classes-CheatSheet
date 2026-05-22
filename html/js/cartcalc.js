@@ -1,4 +1,4 @@
-const server = "http://localhost:8080"
+
 
 
 // centímetros para metros
@@ -120,7 +120,7 @@ function calculateCoordinate() {
 
     }
 
-    fetch(server + "/coord", {
+    fetch("/coord", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
