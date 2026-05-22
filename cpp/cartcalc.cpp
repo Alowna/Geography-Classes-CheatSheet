@@ -26,7 +26,8 @@ int main()
         {"secondValue", 2}
 
         };
-    });
+        res.set_content(testSent.dump(), "application/json");
+    }); 
 
     server.Options("/coord", [](const httplib::Request& req, httplib::Response& res) {
         res.set_header("Access-Control-Allow-Origin", "*"); // Allow any origin
