@@ -27,7 +27,7 @@ We... went a little off-course. :3
 * Implement PHP files for all pages | Done!
 * Implement PHP includes filemtime() function for file versioning and cache reset upon change and push | Done!
 * Implement PHP-friendly paths | Done!
-* Implement .sh to compile and execute c++ listener once every pull | TO-DO
+* Implement .sh to compile and execute c++ listener once every pull | DONE!
 * Implement some of the HTML PHP pages information about the course | TO-DO
 
 ### Fourth week
