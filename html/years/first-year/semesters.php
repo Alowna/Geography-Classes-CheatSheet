@@ -1,3 +1,7 @@
+<?php 
+include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,7 +10,7 @@
     <title>Primeiro Ano GeoCheatSheet</title>
 
     
-    <script type="module" src="/components/headImports.js"></script>
+    <script type="module" src="<?= cacheReset('/components/headImports.js'); ?>"></script>
     <head-imports></head-imports>
 
 </head>

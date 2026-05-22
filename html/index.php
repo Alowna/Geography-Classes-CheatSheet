@@ -1,11 +1,15 @@
+<?php 
+include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeoCheatSheet Homepage</title>
-    <script type="module" src="/components/headImports.js"></script>
-    <script type="module" src="/components/WIP.js"></script>
+    <script type="module" src="<?= cacheReset('/components/headImports.php'); ?>"></script>
+    
 
     <head-imports></head-imports>
 
@@ -43,8 +47,9 @@
         <p>Este site é um hub de estudos gratuito e livre de anúncios, criado para organizar as informações do curso de Geografia à medida que avanço na graduação.
         <br>Sem taxas ou propagandas. Apenas uma estudante tentando facilitar a vida de outros estudantes através do compartilhamento de conteúdo organizado, que inclusive, você pode ajudar também!
         <br>Navegue pelo menu, aproveite os materiais e que essa organização te ajude tanto quanto tem me ajudado!</p>
-
+    
         <p>Caso note algo fora do lugar, ou até mesmo veja o conteúdo e pense.."Alona, você está chapando!!" Clique no icone <i class="bi bi-github"></i> do rodapé para me enviar uma sugestão pelo GitHub! </p>
+        <br><br><p>Os conhecimentos aqui dispostos se tratam de minha interpretação da Graduação em Geografia-Licenciatura da Unesp Rio Claro, com base na grade dos ingressantes de 2026. Mas todas as sugestões são bem-vindas!<br> O objetivo é realmente agregar conhecimentos úteis ao aprendizado desta ciência.</p>
     </div> 
 
 

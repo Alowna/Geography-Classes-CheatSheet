@@ -1,11 +1,15 @@
+<?php 
+include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeoCheatSheet Homepage</title>
-    <script type="module" src="/components/headImports.js"></script>
-    <script type="module" src="/components/WIP.js"></script>
+    <script type="module" src="<?= cacheReset('/components/headImports.js'); ?>"></script>
+    <script type="module" src="<?= cacheReset('/components/WIP.js'); ?>"></script>
 
     <head-imports></head-imports>
 
