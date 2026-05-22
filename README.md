@@ -28,8 +28,10 @@ We... went a little of course. :3
 * Implement PHP includes filemtime() function for file versioning and cache reset upon change and push | Done!
 * Implement PHP-friendly paths | Done!
 * Implement .sh to compile and execute c++ listener once every pull | TO-DO
-* Implement all other html static pages information about the course
+* Implement some of the HTML PHP pages information about the course | TO-DO
 
 ### Fourth week
-* Yet to be discovered
-* Herobrine removed
+* Implement safety-standard-procedures to webhook connection
+* Implement HTTPS secure server certificate
+* Implement try catch statements for bugs, security and data-consistency
+* Implement more HTML php pages information about the course
