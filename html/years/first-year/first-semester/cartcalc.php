@@ -1,7 +1,7 @@
 <?php 
 include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
 
-$cartCalcStyleSrc = cacheReset('/styles/cartcalc.css');
+$cartCalcStyle = cacheReset('/styles/cartcalc.css');
 
 ?>
 
@@ -14,7 +14,7 @@ $cartCalcStyleSrc = cacheReset('/styles/cartcalc.css');
 
     <script type="module" src="<?= cacheReset('/components/headImports.php'); ?>"></script>
     <head-imports></head-imports>
-    <link rel="stylesheet" href="<?= $cartCalcStyleSrc ?>">
+    <link rel="stylesheet" href="<?= $cartCalcStyle ?>">
 
 
 </head>
