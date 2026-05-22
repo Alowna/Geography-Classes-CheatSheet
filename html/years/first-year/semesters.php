@@ -10,7 +10,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
     <title>Primeiro Ano GeoCheatSheet</title>
 
     
-    <script type="module" src="<?= cacheReset('/components/headImports.js'); ?>"></script>
+    <script type="module" src="<?= cacheReset('/components/headImports.php'); ?>"></script>
     <head-imports></head-imports>
 
 </head>

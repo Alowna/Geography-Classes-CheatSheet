@@ -1,5 +1,8 @@
 <?php 
 include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
+
+$cartCalcStyleSrc = cacheReset('/styles/cartcalc.css');
+
 ?>
 
 <!DOCTYPE html>
@@ -9,9 +12,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/cacheReset.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cálculos Cartográficos</title>
 
-    <script type="module" src="<?= cacheReset('/components/headImports.js'); ?>"></script>
+    <script type="module" src="<?= cacheReset('/components/headImports.php'); ?>"></script>
     <head-imports></head-imports>
-    <link rel="stylesheet" href="cartcalc.css">
+    <link rel="stylesheet" href="<?= $cartCalcStyleSrc ?>">
 
 
 </head>
