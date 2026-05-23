@@ -29,9 +29,10 @@ We... went a little off-course. :3
 * Implement PHP-friendly paths | Done!
 * Implement .sh to compile and execute c++ listener once every pull | DONE!
 * Implement HTTPS secure server certificate DONE EARLIER!
-* Implement some of the HTML PHP pages information about the course | TO-DO
+
 
 ### Fourth week
+* Implement some of the HTML PHP pages information about the course | TO-DO
 * Implement safety-standard-procedures to webhook connection
 * Implement try catch statements for bugs, security and data-consistency
 * Implement more HTML php pages information about the course
