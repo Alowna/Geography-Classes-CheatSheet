@@ -50,10 +50,10 @@ $cartCalcScript = cacheReset('/js/cartcalc.js');
                         <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">1 Semestre</a>
                         <ul class="dropdown-menu">
                           <li>
-                            <a href="pages/years/first-year/first-semester/cartcalc.php" class="dropdown-item">Calculos Cartográficos</a>
-                            <a href="pages/wip.php" class="dropdown-item">Climatologia</a>
-                            <a href="pages/wip.php" class="dropdown-item">Pensamento Geográfico</a>
-                            <a href="pages/wip.php" class="dropdown-item">Geologia</a>
+                            <a href="/pages/years/first-year/first-semester/cartcalc.php" class="dropdown-item">Calculos Cartográficos</a>
+                            <a href="/pages/wip.php" class="dropdown-item">Climatologia</a>
+                            <a href="/pages/wip.php" class="dropdown-item">Pensamento Geográfico</a>
+                            <a href="/pages/wip.php" class="dropdown-item">Geologia</a>
                           </li>
                         </ul>
                       </li>
@@ -61,10 +61,10 @@ $cartCalcScript = cacheReset('/js/cartcalc.js');
                         <a href="" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">2 Semestre</a>
                         <ul class="dropdown-menu">
                           <li>
-                            <a href="pages/wip.php" class="dropdown-item">WIP</a>
-                            <a href="pages/wip.php" class="dropdown-item">WIP</a>
-                            <a href="pages/wip.php" class="dropdown-item">WIP</a>
-                            <a href="pages/wip.php" class="dropdown-item">WIP</a>
+                            <a href="/pages/wip.php" class="dropdown-item">WIP</a>
+                            <a href="/pages/wip.php" class="dropdown-item">WIP</a>
+                            <a href="/pages/wip.php" class="dropdown-item">WIP</a>
+                            <a href="/pages/wip.php" class="dropdown-item">WIP</a>
                           </li>
                         </ul>
                       </li>
@@ -78,7 +78,7 @@ $cartCalcScript = cacheReset('/js/cartcalc.js');
             </ul>
           </div>
         </div>
-        
+
         <div class="container d-flex justify-content-end">
             <span class="mb-0 h2">Cálculos Cartográficos</span>
         </div>
