@@ -78,10 +78,12 @@ $cartCalcScript = cacheReset('/js/cartcalc.js');
             </ul>
           </div>
         </div>
-      </nav>
+        
         <div class="container d-flex justify-content-end">
             <span class="mb-0 h2">Cálculos Cartográficos</span>
         </div>
+      </nav>
+
     </header>
 
     <main class="flex-grow-1">
