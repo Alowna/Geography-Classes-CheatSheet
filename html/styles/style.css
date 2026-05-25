@@ -26,3 +26,20 @@ footer{
   box-shadow: inset 0px 21px 16px -12px rgba(202,166,255,0.37), inset 0px 21px 16px -12px rgba(202,166,255,0.37);  
 }
 
+
+/* Ativa o efeito hover apenas em telas grandes (Desktop) */
+@media (min-width: 992px) {
+  
+  .navbar-nav .dropdown:hover > .dropdown-menu,
+  .navbar-nav .dropend:hover > .dropdown-menu,
+  .navbar-nav .dropdown-item:hover + .dropdown-menu,
+  .navbar-nav .dropdown-menu li:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-nav .dropdown-menu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px; 
+  }
+}

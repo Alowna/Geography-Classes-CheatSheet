@@ -6,7 +6,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
 $footerSrc = cacheReset('/components/footer.js');
 $stylesSrc = cacheReset('/styles/style.css');
 
+$bootJs = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js";
+
 ?>
+
 
     class HeadImports extends HTMLElement {
         connectedCallback() {
@@ -22,6 +25,8 @@ $stylesSrc = cacheReset('/styles/style.css');
 
             // Carrega o script do componente de rodapé com o caminho dinâmico calculado
             this.loadScript("<?= $footerSrc; ?>");
+            this.loadScript("<?= $bootJs; ?>");
+
         }
         loadScript(src) {
             const script = document.createElement("script");
