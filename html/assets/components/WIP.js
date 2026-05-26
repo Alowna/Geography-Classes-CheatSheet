@@ -4,7 +4,7 @@ class WIP extends HTMLElement {
     <main class="d-flex flex-grow-1 overflow-hidden" style="height:300px;">
         <div class="container d-flex justify-content-center mx-0 px-0  bg-black mw-100" >
 
-            <img  src="/img/WIPbg.png">
+            <img  src="/assets/img/WIPbg.png">
 
         </div>
         
@@ -14,7 +14,7 @@ class WIP extends HTMLElement {
         
         <div id="dioDa" class="text-center mx-0  "   style="display: none;position:fixed; bottom:20%; right:20%; width:50%; height: 50%; color: #FFFFFF; text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00; color: #FFFFFF;">       
             <p>VOCÊ ESPERAVA QUE FOSSE O CONTEUDO DO CABEÇALHO</p>
-            <img class="rounded mx-auto d-block" src="/img/konodioda.gif" style="width:50%;height:100%;overflow:hidden;" alt="IT WAS ME, DIO!!" title="KONODIODAA!!">
+            <img class="rounded mx-auto d-block" src="/assets/img/konodioda.gif" style="width:50%;height:100%;overflow:hidden;" alt="IT WAS ME, DIO!!" title="KONODIODAA!!">
             <p>MAS ERA EU, DIO!!</p>
         </div>
     `;

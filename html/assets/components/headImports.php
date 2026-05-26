@@ -1,10 +1,10 @@
 <?php
 header("Content-Type: application/javascript");
 
-include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
 
-$footerSrc = cacheReset('/components/footer.js');
-$stylesSrc = cacheReset('/styles/style.css');
+$footerSrc = cacheReset('/assets/components/footer.js');
+$stylesSrc = cacheReset('/assets/css/style.css');
 
 $bootJs = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js";
 
@@ -15,7 +15,7 @@ $bootJs = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle
         connectedCallback() {
 
             document.head.insertAdjacentHTML("beforeend", `
-                <link rel="icon" type="image/png" href="/img/whathedogdoing.png">
+                <link rel="icon" type="image/png" href="/assets/img/whathedogdoing.png">
                 <link rel="preconnect" href="https://fonts.googleapis.com">
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">

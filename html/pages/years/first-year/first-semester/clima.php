@@ -1,5 +1,10 @@
 <?php 
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
+
+$cartCalcStyle = cacheReset('/assets/css/cartcalc.css');
+$cartCalcScript = cacheReset('/assets/js/cartcalc.js');
+
+
 ?>
 
 <!DOCTYPE html>
@@ -7,17 +12,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeoCheatSheet Homepage</title>
-    <script type="module" src="<?= cacheReset('/assets/components/headImports.php'); ?>"></script>
-    
+    <title>Climatologia</title>
 
+    <script type="module" src="<?= cacheReset('/assets/components/headImports.php'); ?>"></script>
     <head-imports></head-imports>
+    <link rel="stylesheet" href="<?= $cartCalcStyle ?>">
+
 
 </head>
-<body  class="d-flex flex-column min-vh-100">
-    <header class="p-3 bg-dark text-white">
-
-
+<body class="d-flex flex-column min-vh-100">
+<header class="p-3 bg-dark text-white">
+        
       <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +31,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active  text-secondary" aria-current="page" href="/">Página Inicial</a>
+                <a class="nav-link active  text-white" aria-current="page" href="/">Página Inicial</a>
               </li>
 
   <!--        <li class="nav-item">
@@ -46,7 +51,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
                         <ul class="dropdown-menu">
                           <li>
                             <a href="/pages/years/first-year/first-semester/cartcalc.php" class="dropdown-item">Calculos Cartográficos</a>
-                            <a href="/pages/years/first-year/first-semester/clima.php" class="dropdown-item">Climatologia</a>
+                            <a href="/pages/wip.php" class="dropdown-item">Climatologia</a>
                             <a href="/pages/wip.php" class="dropdown-item">Pensamento Geográfico</a>
                             <a href="/pages/wip.php" class="dropdown-item">Geologia</a>
                           </li>
@@ -56,10 +61,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
                         <a href="" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">2 Semestre</a>
                         <ul class="dropdown-menu">
                           <li>
-                            <a href="pages/wip.php" class="dropdown-item">WIP</a>
-                            <a href="pages/wip.php" class="dropdown-item">WIP</a>
-                            <a href="pages/wip.php" class="dropdown-item">WIP</a>
-                            <a href="pages/wip.php" class="dropdown-item">WIP</a>
+                            <a href="/pages/wip.php" class="dropdown-item">WIP</a>
+                            <a href="/pages/wip.php" class="dropdown-item">WIP</a>
+                            <a href="/pages/wip.php" class="dropdown-item">WIP</a>
+                            <a href="/pages/wip.php" class="dropdown-item">WIP</a>
                           </li>
                         </ul>
                       </li>
@@ -73,34 +78,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
             </ul>
           </div>
         </div>
+
+        <div class="container d-flex justify-content-end">
+            <span class="mb-0 h2">Climatologia</span>
+        </div>
       </nav>
 
-    
     </header>
-    
 
-    
     <main class="flex-grow-1">
-
-    
-    <div class="container d-flex flex-column justify-content-center text-center">
-        <h1>Bem-vinde!</h1> 
-        <p>Este site é um hub de estudos gratuito e livre de anúncios, criado para organizar as informações do curso de Geografia à medida que avanço na graduação.
-        <br>Sem taxas ou propagandas. Apenas uma estudante tentando facilitar a vida de outros estudantes através do compartilhamento de conteúdo organizado, que inclusive, você pode ajudar também!
-        <br>Navegue pelo menu, aproveite os materiais e que essa organização te ajude tanto quanto tem me ajudado!</p>
-    
-        <p>Caso note algo fora do lugar, ou até mesmo veja o conteúdo e pense.."Alona, você está chapando!!" Clique no icone <i class="bi bi-github"></i> do rodapé para me enviar uma sugestão pelo GitHub! </p>
-        <br><br><p>Os conhecimentos aqui dispostos se tratam de minha interpretação da Graduação em Geografia-Licenciatura da Unesp Rio Claro, com base na grade dos ingressantes de 2026. Mas todas as sugestões são bem-vindas!<br> O objetivo é realmente agregar conhecimentos úteis ao aprendizado desta ciência.</p>
-    </div> 
-
-
+        
     </main>
-
-    
-    
-  
+                    
     <footer-component></footer-component>
-
-    
+    <script type="module" src="<?= $cartCalcScript?>"></script>
 </body>
 </html>

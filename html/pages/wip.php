@@ -1,5 +1,5 @@
 <?php 
-include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
 ?>
 
 <!DOCTYPE html>
@@ -8,8 +8,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeoCheatSheet Homepage</title>
-    <script type="module" src="<?= cacheReset('/components/headImports.php'); ?>"></script>
-    <script type="module" src="<?= cacheReset('/components/WIP.js'); ?>"></script>
+    <script type="module" src="<?= cacheReset('/assets/components/headImports.php'); ?>"></script>
+    <script type="module" src="<?= cacheReset('/assets/components/WIP.js'); ?>"></script>
 
     <head-imports></head-imports>
 

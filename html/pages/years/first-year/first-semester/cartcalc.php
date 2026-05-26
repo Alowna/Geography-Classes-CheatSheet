@@ -1,8 +1,8 @@
 <?php 
-include $_SERVER['DOCUMENT_ROOT'] . '/components/cacheReset.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
 
-$cartCalcStyle = cacheReset('/styles/cartcalc.css');
-$cartCalcScript = cacheReset('/js/cartcalc.js');
+$cartCalcStyle = cacheReset('/assets/css/cartcalc.css');
+$cartCalcScript = cacheReset('/assets/js/cartcalc.js');
 
 
 ?>
@@ -14,7 +14,7 @@ $cartCalcScript = cacheReset('/js/cartcalc.js');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cálculos Cartográficos</title>
 
-    <script type="module" src="<?= cacheReset('/components/headImports.php'); ?>"></script>
+    <script type="module" src="<?= cacheReset('/assets/components/headImports.php'); ?>"></script>
     <head-imports></head-imports>
     <link rel="stylesheet" href="<?= $cartCalcStyle ?>">
 
@@ -51,7 +51,7 @@ $cartCalcScript = cacheReset('/js/cartcalc.js');
                         <ul class="dropdown-menu">
                           <li>
                             <a href="/pages/years/first-year/first-semester/cartcalc.php" class="dropdown-item">Calculos Cartográficos</a>
-                            <a href="/pages/wip.php" class="dropdown-item">Climatologia</a>
+                            <a href="/pages/years/first-year/first-semester/clima.php" class="dropdown-item">Climatologia</a>
                             <a href="/pages/wip.php" class="dropdown-item">Pensamento Geográfico</a>
                             <a href="/pages/wip.php" class="dropdown-item">Geologia</a>
                           </li>
