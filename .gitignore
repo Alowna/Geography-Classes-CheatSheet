@@ -5,3 +5,5 @@ cartcalc
 .vscode
 
 backend_server
+
+html/vendor/node_modules

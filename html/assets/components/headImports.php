@@ -6,7 +6,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
 $footerSrc = cacheReset('/assets/components/footer.js');
 $stylesSrc = cacheReset('/assets/css/style.css');
 
-$bootJs = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js";
+$bootJs = "/vendor/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
 ?>
 
@@ -19,7 +19,7 @@ $bootJs = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle
                 <link rel="preconnect" href="https://fonts.googleapis.com">
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+                <link href="/vendor/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
                 <link rel="stylesheet" href="<?= $stylesSrc ?>">
             `);
 

@@ -1,0 +1,33 @@
+{
+  "name": "geocheatsheetpackage",
+  "version": "1.0.0",
+  "description": "geocheatsheet package for newbies",
+  "keywords": [
+    "cloud-computing",
+    "html5",
+    "css",
+    "js",
+    "c++",
+    "php",
+    "apache"
+  ],
+  "homepage": "https://github.com/Alowna/Geography-Classes-CheatSheet#readme",
+  "bugs": {
+    "url": "https://github.com/Alowna/Geography-Classes-CheatSheet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alowna/Geography-Classes-CheatSheet.git"
+  },
+  "license": "MIT",
+  "author": "Alowna",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
+  }
+}
