@@ -5,6 +5,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/components/cacheReset.php';
 
 $footerSrc = cacheReset('/assets/components/footer.js');
 $stylesSrc = cacheReset('/assets/css/style.css');
+$bgStyleSrc = cacheReset('/assets/css/bg.css');
 
 $bootJs = "/vendor/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
@@ -21,6 +22,7 @@ $bootJs = "/vendor/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
                 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
                 <link href="/vendor/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
                 <link rel="stylesheet" href="<?= $stylesSrc ?>">
+                <link rel="stylesheet" href="<?= $bgStyleSrc ?>">
             `);
 
             // Carrega o script do componente de rodapé com o caminho dinâmico calculado

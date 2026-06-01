@@ -1,0 +1,30 @@
+introduction{
+    width: 100%;    
+}
+
+@media (max-width: 900px){
+    p {
+    font-size: large;
+    text-shadow: 0px 2px 7px #FFFFFF, 0px 2px 7px #FFFFFF, 0px 2px 7px #FFFFFF, 0px 2px 7px #FFFFFF;
+    }
+    introduction{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media (min-width: 1024px){
+    introduction{
+        width: 50%;    
+    } 
+    p {
+    font-size: large;
+    }
+}
+
+h1, p{
+    user-select:none;
+}
+
+
+

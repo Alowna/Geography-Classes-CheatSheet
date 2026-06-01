@@ -86,7 +86,7 @@ $cartCalcScript = cacheReset('/assets/js/cartcalc.js');
 
     </header>
 
-    <main class="flex-grow-1">
+    <main id="clima" class="flex-grow-1">
         
     </main>
                     
