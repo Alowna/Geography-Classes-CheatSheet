@@ -2,10 +2,18 @@ introduction{
     width: 100%;    
 }
 
+p{
+    text-shadow: 0px 2px 7px #FFFFFF, 0px 2px 7px #FFFFFF, 0px 2px 7px #FFFFFF, 0px 2px 7px #FFFFFF;
+}
+
+h1, p{
+    user-select:none;
+}
+
 @media (max-width: 900px){
     p {
     font-size: large;
-    text-shadow: 0px 2px 7px #FFFFFF, 0px 2px 7px #FFFFFF, 0px 2px 7px #FFFFFF, 0px 2px 7px #FFFFFF;
+    
     }
     introduction{
         padding-right: 5%;
@@ -22,9 +30,7 @@ introduction{
     }
 }
 
-h1, p{
-    user-select:none;
-}
+
 
 
 
